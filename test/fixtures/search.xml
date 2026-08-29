@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/sgevl1nS8nI2ix/LxDBIKHORPVI</id>
+  <title>arXiv Query: search_query=all:attention&amp;id_list=&amp;start=0&amp;max_results=2</title>
+  <updated>2026-08-29T21:27:23Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:attention&amp;start=0&amp;max_results=2&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>2</opensearch:itemsPerPage>
+  <opensearch:totalResults>99152</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2202.09741v5</id>
+    <title>Visual Attention Network</title>
+    <updated>2022-07-11T04:21:37Z</updated>
+    <link href="https://arxiv.org/abs/2202.09741v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.09741v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While originally designed for natural language processing tasks, the self-attention mechanism has recently taken various computer vision areas by storm. However, the 2D nature of images brings three challenges for applying self-attention in computer vision. (1) Treating images as 1D sequences neglects their 2D structures. (2) The quadratic complexity is too expensive for high-resolution images. (3) It only captures spatial adaptability but ignores channel adaptability. In this paper, we propose a novel linear attention named large kernel attention (LKA) to enable self-adaptive and long-range correlations in self-attention while avoiding its shortcomings. Furthermore, we present a neural network based on LKA, namely Visual Attention Network (VAN). While extremely simple, VAN surpasses similar size vision transformers(ViTs) and convolutional neural networks(CNNs) in various tasks, including image classification, object detection, semantic segmentation, panoptic segmentation, pose estimation, etc. For example, VAN-B6 achieves 87.8% accuracy on ImageNet benchmark and set new state-of-the-art performance (58.2 PQ) for panoptic segmentation. Besides, VAN-B2 surpasses Swin-T 4% mIoU (50.1 vs. 46.1) for semantic segmentation on ADE20K benchmark, 2.6% AP (48.8 vs. 46.2) for object detection on COCO dataset. It provides a novel method and a simple yet strong baseline for the community. Code is available at https://github.com/Visual-Attention-Network.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-20T06:35:18Z</published>
+    <arxiv:comment>Code is available at https://github.com/Visual-Attention-Network</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Meng-Hao Guo</name>
+    </author>
+    <author>
+      <name>Cheng-Ze Lu</name>
+    </author>
+    <author>
+      <name>Zheng-Ning Liu</name>
+    </author>
+    <author>
+      <name>Ming-Ming Cheng</name>
+    </author>
+    <author>
+      <name>Shi-Min Hu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.05427v2</id>
+    <title>Grounded Text-to-Image Synthesis with Attention Refocusing</title>
+    <updated>2023-12-02T02:02:54Z</updated>
+    <link href="https://arxiv.org/abs/2306.05427v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.05427v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Driven by the scalable diffusion models trained on large-scale datasets, text-to-image synthesis methods have shown compelling results. However, these models still fail to precisely follow the text prompt involving multiple objects, attributes, or spatial compositions. In this paper, we reveal the potential causes in the diffusion model's cross-attention and self-attention layers. We propose two novel losses to refocus attention maps according to a given spatial layout during sampling. Creating the layouts manually requires additional effort and can be tedious. Therefore, we explore using large language models (LLM) to produce these layouts for our method. We conduct extensive experiments on the DrawBench, HRS, and TIFA benchmarks to evaluate our proposed method. We show that our proposed attention refocusing effectively improves the controllability of existing approaches.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-08T17:59:59Z</published>
+    <arxiv:comment>Project page: https://attention-refocusing.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Quynh Phung</name>
+    </author>
+    <author>
+      <name>Songwei Ge</name>
+    </author>
+    <author>
+      <name>Jia-Bin Huang</name>
+    </author>
+  </entry>
+</feed>

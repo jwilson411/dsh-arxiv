@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Xq0hZ2fake+FeedIdForTests</id>
+  <title>arXiv Query: search_query=all:wrapped&amp;id_list=&amp;start=0&amp;max_results=1</title>
+  <updated>2026-08-29T21:30:00Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:wrapped&amp;start=0&amp;max_results=1&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2101.00001v2</id>
+    <title>Wrapped Titles &amp; Escaped Entities: A Study of
+  Whitespace in the arXiv API</title>
+    <updated>2021-02-01T00:00:00Z</updated>
+    <link href="https://arxiv.org/abs/2101.00001v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2101.00001v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The arXiv API hard-wraps abstracts at column 80 and indents every
+continuation line, so a naive reader sees layout where the paper has prose.
+It also escapes &amp;, &lt;, and &gt; as entities. We show that q &lt; p &amp;&amp; p &gt; 0
+survives a round trip.
+</summary>
+    <category term="cs.DL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-01-01T00:00:00Z</published>
+    <arxiv:primary_category term="cs.DL"/>
+    <author>
+      <name>Ada
+        Lovelace</name>
+    </author>
+    <author>
+      <name>Grace Hopper</name>
+    </author>
+  </entry>
+</feed>

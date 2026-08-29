@@ -1,0 +1,55 @@
+{
+  "name": "dsh-arxiv",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness plugin: read-only arXiv search and abstract lookup over the public Atom API, as the arxiv_search and arxiv_get tools",
+  "license": "MIT",
+  "type": "module",
+  "author": "jwilson411",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src",
+    "cordis.patch.yml",
+    "LICENSE",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "scripts": {
+    "test": "node --test \"test/**/*.test.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwilson411/dsh-arxiv.git"
+  },
+  "homepage": "https://github.com/jwilson411/dsh-arxiv#readme",
+  "bugs": {
+    "url": "https://github.com/jwilson411/dsh-arxiv/issues"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "cordis",
+    "plugin",
+    "arxiv",
+    "papers",
+    "search"
+  ],
+  "engines": {
+    "node": ">=22.14.0"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1",
+    "@deepseek-ai/dsh-tools": "^0.1.1-rc.2"
+  },
+  "devDependencies": {
+    "@deepseek-ai/dsh-tools": "0.1.1-rc.2"
+  }
+}
