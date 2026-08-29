@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Xq0hZ2fake+NoLinksFeed</id>
+  <title>arXiv Query: search_query=&amp;id_list=hep-th/9901001&amp;start=0&amp;max_results=1</title>
+  <updated>2026-08-29T21:31:00Z</updated>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/9901001v1</id>
+    <title>An Entry That States No Links</title>
+    <updated>1999-01-01T00:00:00Z</updated>
+    <summary>Some feeds omit the alternate and pdf links. The URLs are then derived
+from the identifier rather than invented.</summary>
+    <published>1999-01-01T00:00:00Z</published>
+    <author>
+      <name>Anonymous</name>
+    </author>
+  </entry>
+</feed>

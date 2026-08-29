@@ -1,0 +1,10 @@
+node_modules/
+coverage/
+*.lcov
+
+.env
+.env.*
+
+.DS_Store
+Thumbs.db
+*.swp
